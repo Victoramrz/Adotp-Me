@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack(){
+            Image("Pantalla de carga").resizable().frame(width: 450, height: 850, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/);
+            LazyVStack(){
+                Image("Adopte Me remove") .resizable().frame(width: 350, height: 350, alignment: .top);
+                ProgressView().progressViewStyle(CircularProgressViewStyle()).scaleEffect(4)
+            }
+        }
     }
 }
 

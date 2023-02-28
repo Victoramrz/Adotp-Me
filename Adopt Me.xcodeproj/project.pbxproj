@@ -52,6 +52,7 @@
 		57B8F03229AE072D00C9AED4 /* Adopt Me */ = {
 			isa = PBXGroup;
 			children = (
+				57E1B82B29AE1BBC007D83D1 /* Views */,
 				57B8F03329AE072D00C9AED4 /* Adopt_MeApp.swift */,
 				57B8F03529AE072D00C9AED4 /* ContentView.swift */,
 				57B8F03729AE073800C9AED4 /* Assets.xcassets */,
@@ -67,6 +68,13 @@
 				57B8F03A29AE073800C9AED4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57E1B82B29AE1BBC007D83D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
