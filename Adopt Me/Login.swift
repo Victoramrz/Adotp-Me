@@ -37,7 +37,6 @@ struct Login: View {
                 Group {
                     Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
                         Text("Log In").bold().foregroundColor(.white).background(Color.orange).cornerRadius(10).font(.system(size: 36));
-                        
                     }
                     Spacer();
                     Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {

@@ -13,6 +13,7 @@
 		57B8F03B29AE073800C9AED4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B8F03A29AE073800C9AED4 /* Preview Assets.xcassets */; };
 		57F3E8C329B665E300067106 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F3E8C229B665E300067106 /* Register.swift */; };
 		57F3E8C629B66FF500067106 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F3E8C529B66FF500067106 /* Login.swift */; };
+		57F3E8C929B6752500067106 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F3E8C829B6752500067106 /* Switch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		57B8F03C29AE073800C9AED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57F3E8C229B665E300067106 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		57F3E8C529B66FF500067106 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		57F3E8C829B6752500067106 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				57F3E8C229B665E300067106 /* Register.swift */,
 				57F3E8C529B66FF500067106 /* Login.swift */,
+				57F3E8C829B6752500067106 /* Switch.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				57B8F03629AE072D00C9AED4 /* ContentView.swift in Sources */,
 				57B8F03429AE072D00C9AED4 /* Adopt_MeApp.swift in Sources */,
 				57F3E8C629B66FF500067106 /* Login.swift in Sources */,
+				57F3E8C929B6752500067106 /* Switch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
